@@ -5,3 +5,4 @@ suffix = input("Enter the suffix: ")
 if len(suffix) > len(input_string):
     print("False")
 # print the output by comparing the end of the string with the suffix
+print(input_string[-len(suffix): ] == suffix)
