@@ -6,3 +6,4 @@ total_spaces = space_characters - len(input_string)
 if total_spaces <= 0 :
     print(input_string)
 # print the output
+print(input_string + " " * total_spaces)
