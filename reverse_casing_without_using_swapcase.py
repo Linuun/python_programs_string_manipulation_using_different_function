@@ -8,4 +8,6 @@ for letter in input_string:
     if letter.isupper():
         swapcase += letter.lower()
 # check if the character is in lower case then add its upper case into the variable
+    else:
+        swapcase += letter.upper()
 # print the output
