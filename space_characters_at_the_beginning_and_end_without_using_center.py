@@ -2,5 +2,8 @@
 input_string = input("Enter any word/s: ")
 space_characters = int(input("Enter the number of space characters you want: "))
 # calculate the total number of space characters
+total_spaces = space_characters - len(input_string)
+if total_spaces <= 0:
+    print(input_string)
 # calculate the number of space characters to add in left and right
 # print the output
