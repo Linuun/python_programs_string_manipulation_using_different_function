@@ -9,3 +9,4 @@ if total_spaces <= 0:
 left_spaces = total_spaces // 2
 right_spaces = total_spaces - left_spaces
 # print the output
+print(" " * left_spaces + input_string + " " * right_spaces)
