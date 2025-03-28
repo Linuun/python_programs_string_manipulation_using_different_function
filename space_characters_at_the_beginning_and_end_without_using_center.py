@@ -6,4 +6,6 @@ total_spaces = space_characters - len(input_string)
 if total_spaces <= 0:
     print(input_string)
 # calculate the number of space characters to add in left and right
+left_spaces = total_spaces // 2
+right_spaces = total_spaces - left_spaces
 # print the output
