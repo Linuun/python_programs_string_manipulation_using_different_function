@@ -1,0 +1,2 @@
+# ask user to input words but first letter are in lower case
+# print the output by capitalizing every first letter using split, capitalize, and join fucntion
