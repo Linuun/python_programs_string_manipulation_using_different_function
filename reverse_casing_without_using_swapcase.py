@@ -11,3 +11,4 @@ for letter in input_string:
     else:
         swapcase += letter.upper()
 # print the output
+print(swapcase)
