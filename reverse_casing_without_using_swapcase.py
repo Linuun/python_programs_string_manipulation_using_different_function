@@ -1,4 +1,5 @@
 # ask user to input words in improper casing
+input_string = input("Enter any words (in improper casing): ")
 # initialize a variable for storing characters
 # use for loop
 # check if the character is in upper case then add its lower case into the variable
