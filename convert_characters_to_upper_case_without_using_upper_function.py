@@ -11,3 +11,4 @@ for letter in input_string:
     else:
         result += letter
 # print the output
+print(result)
