@@ -5,3 +5,5 @@ sub_string = input("Enter the string you want to locate: ")
 if sub_string not in input_string:
     print("Error: string not found")
 # print the output using find function
+else:
+    print(input_string.find(sub_string))
