@@ -6,4 +6,8 @@ result = ""
 for letter in input_string:
 # check if the letter is in lowercase
 # add the capitalized letter to the variable
+    if letter.islower():
+        result += letter.capitalize()
+    else:
+        result += letter
 # print the output
