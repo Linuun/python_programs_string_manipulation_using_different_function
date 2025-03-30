@@ -1,4 +1,6 @@
 # ask user to input any word/s and the character/s they want to count
+input_string = input("Enter any word/s: ")
+sub_string = input("Enter the character you want to count the number of appearance: ")
 # initialize a variable for count and start
 # use while loop
 # find the position of the character starting from "start" index
