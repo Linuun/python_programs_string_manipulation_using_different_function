@@ -13,4 +13,6 @@ while start < len(input_string):
         count += 1
         start = position + 1
 # break the loop
+    else:
+        break
 # print the output
