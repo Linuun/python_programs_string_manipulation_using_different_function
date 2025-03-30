@@ -2,3 +2,4 @@
 input_string = input("Enter any word: ")
 number = int(input("Enter the zeros to fill: "))
 # print the output using f string function
+print(f"{input_string:0>{number}}")
