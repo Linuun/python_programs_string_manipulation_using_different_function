@@ -16,3 +16,4 @@ while start < len(input_string):
     else:
         break
 # print the output
+print(count)
