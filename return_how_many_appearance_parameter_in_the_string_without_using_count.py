@@ -7,6 +7,7 @@ start = 0
 # use while loop
 while start < len(input_string):
 # find the position of the character starting from "start" index
+    position = input_string.find(sub_string, start)
 # check if the character is found in the string, add 1 to the count and update the start position
 # break the loop
 # print the output
