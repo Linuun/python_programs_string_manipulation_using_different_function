@@ -4,3 +4,4 @@ input_string = input("Enter any word/s: ")
 while input_string and input_string[-1] == " ":
     input_string = input_string[:-1]
 # print the output
+print(input_string)
